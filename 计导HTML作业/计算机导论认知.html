@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset ="utf-8">
+        <title>计算机导论认知</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial;
+                padding:10px;
+                background: #F1FAFA;
+            }
+            /*头部标题*/
+            .header{
+                padding: 30px;
+                text-align: center;
+                background: white;
+            }
+            .header h1{
+                font-size: 50px;
+            }
+            /*导航条*/
+            .topnav{
+                overflow: hidden;
+                background-color: #DDF3FF;
+            }
+            /*导航条链接*/
+            .topnav a{
+                float:left;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .topnav a:hover{
+                background-color: #ddd;
+                color: black;
+            }
+            /*栏目*/
+            .column{
+                float:left;
+                width: 100%;
+            }
+            .myimg{
+                background-color: #aaa;
+                width: 100%;
+                padding: 20px;
+            }
+            /*卡片设计*/
+            .card{
+                font-size: 20px;
+                border-radius: 25px;
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            /*卡片链接*/
+            .card a{
+                color: #79328bfa;
+                text-decoration: none;
+            }
+            .card a:hover{
+                color:thistle;
+                background-color: #aaa;
+            }
+            .row:after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .footer{
+                font-size: 20px;
+                border-radius: 25px;
+                padding: 20px;
+                text-align: center;
+                background: #DDF3FF;
+                margin-top: 20px;
+            }
+            @media screen and (max-width:400px){
+                .topnav a{
+                    float: none;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>计算机导论认知</h1>
+        </div>
+        <div class="topnav">
+            <a href="https://github.com/palewaves" target="_blank" rel="noopener noreferrer">我的主页</a>
+            <a href="https://github.com/palewaves/computer_hw" target="_blank" rel="noopener noreferrer" style="float:right">项目仓库</a>
+        </div>
+        <div class="row">
+            <div class="column">
+            <div class="card">
+                <h2 style="text-align: center;">计算机学科各课程之间的关系图</h2>
+                <img src="relation.jpg" alt="courses_relation" width="1000" height="500" >
+            </div>
+            <div class="card">
+                <h2 style="text-align: center;">参考资料</h2>
+                <ul>
+                    <li>推荐书籍：
+                        <ul>
+                            <li>《算法设计与分析》</li>
+                            <li>《算法竞赛入门经典训练指南》</li>
+                            <li>《C++ Primer》</li>
+                            <li>《C++ 面向对象程序设计基础》</li>
+                        </ul>
+                    </li>
+                    <li>网站资源：
+                        <ul>
+                            <li>CSDN论坛:<a href="https://www.csdn.net/" target="_blank" rel="noopener noreferrer">https://www.csdn.net/</a></li>
+                            <li>Codeforces:<a href="http://codeforces.com/" target="_blank" rel="noopener noreferrer">http://codeforces.com/</a></li>
+                            <li>菜鸟教程:<a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">https://www.runoob.com/</a></li>
+                            <li>洛谷:<a href="https://www.luogu.com.cn/" target="_blank" rel="noopener noreferrer">https://www.luogu.com.cn/</a></li>
+                            <li>GitHub:<a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/</a></li>
+                            <li>Stack Overflow:<a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">https://stackoverflow.com/</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2 style="text-align: center;">我对计算机专业的认识</h2>
+                <p>在我看来，计算机是一门严谨而具有创造力的学科。学习计算机专业，就如同戴着镣铐起舞一般，通过格式固定的语言，发挥自己的想象力，构建自己的程序，通过各种算法来实现自己的目的。
+                    不同于许多人认为的编程只是枯燥的码代码，我认为编写程序是一件具有创意且有趣的事情，是思想与实践的结合，也是学习计算机中不可或缺的一环。
+                </p>
+                <p>众所周知，计算机专业下还分为许多细小的分支，而不管哪种分支，对我来说，都有着强大的吸引力，让我有着学习的欲望。我想学习前端，搭建属于自己的网页；也想参与后端架构，设计出各式各样的应用。
+                    而想要做到这些，离不开对计算机知识的学习与应用。
+                    学习计算机知识，需要我们学习其原理，了解编程语言，并亲自动手编写，这之中的每一环都至关重要，也都能给我们带来莫大的帮助。
+                </p>
+            </div>
+            <div class="card">
+                <h2 style="text-align: center;">我的学业规划</h2>
+                <p>对于学业规划，我将本科阶段的学习根据年份分为四个阶段，下为详细规划。</p>
+                <ul>
+                    <li>大一：学习基础知识，如高等数学，线性代数，大学物理，程序设计等等。这些知识是专业科目的基石，只有夯实基础，才能在日后更加高效地学习。</li>
+                    <li>大二：学习各类算法，并投身到一些程序设计比赛中，在比赛中打磨自己，提高自己的码力与技术水平。</li>
+                    <li>大三：不局限于C++的学习，对多种语言进行了解与掌握，同时学习计算机组成的基本知识，做到硬件软件两不误。除此之外，尝试在学习前端后端知识的同时将其结合，实现前后端交互的学习。</li>
+                    <li>大四：积极参与实践，争取在一些独角兽公司实习，积累经验。同时尝试着手项目的编写构建，创立属于自己的项目。</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>感谢阅读</h2>
+            <p style="text-align: right;">作者：计算机001 王颢天 2206113742</p>
+        </div>
+    </body>
+</html>
